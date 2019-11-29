@@ -1,0 +1,160 @@
+body {
+    background-color: #dee2e6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#login_canvas {
+    height: 370px;
+    width: 400px;
+    background-color: #f8f9fa;
+    margin-left: 33.33%;
+    margin-right: 33.33%;
+    margin-top: 7%;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: #495057 2px 2px 4px;
+
+}
+
+#company_icon {
+    padding-left: 30%;
+    margin-bottom: 5%;
+    background-color:#212529;
+    border: solid 1px #343a40;
+    border-radius: 10px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+#logo {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+#user {
+    padding-top: 5%;
+    padding-left: 19%;
+}
+
+#password {
+    padding-top: 5%;
+    padding-left: 19%;
+}
+
+#login {
+    padding-left: 29.5%;
+    padding-top: 5%;
+}
+
+#submit {
+    width: 55%;
+    font-size: 18px;
+    background-color: #1971c2;
+    border: 2px solid #1864ab;
+    border-radius: 5px;
+    color: #f8f9fa;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#submit:hover {
+    border: 2px solid #1c7ed6;
+    background-color: #228be6;
+}
+
+#submit:focus {
+    border: 2px solid #364fc7;
+    border-radius: 5px;
+    background-color: #364fc7;
+}
+
+#user_field {
+    background-image: url("../img/user.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 215px;
+}
+
+#password_field {
+    background-image: url("../img/lock.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 215px;
+}
+
+#code_field {
+    background-image: url("../img/code.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 220px;
+    width: 75%;
+}
+
+#error_message {
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    color: #ff6b6b;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #fff5f5;
+    padding: 4px 0 4px 0;
+}
+
+#success_message {
+    background-color: #e6fcf5;
+    color: #40c057;
+    border-radius: 5px;
+    padding: 10px 0 10px 0;
+}
+
+#loadDiv {
+    width: 100%;
+    height: 50px;
+    margin-left: 38%;
+    margin-top: -5%;
+    color: blue;
+}
+
+#search {
+    padding-left: 10%;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#code {
+    margin-left: 19%;
+    margin-top: 5%;
+}
+
+.login_form:hover {
+    border: 1px solid #adb5bd;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+.login_form:focus {
+    border: 1px solid #adb5bd;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+.login_form {
+    border: 1px solid #868e96;
+    border-radius: 5px;
+    padding-left: 6%;
+    background-color: #f1f3f5;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    font-size: 14.5 px;
+}
+
+.icons {
+    margin-right: 3%;
+}
+
+img {
+    padding-bottom: 1.7%;
+}
